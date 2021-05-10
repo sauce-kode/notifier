@@ -15,12 +15,12 @@ class SubscriptionController extends Controller
         $this->subscriptionService = $subscriptionService;
     }
 
-    public function store(CreateSubscriptionRequest $request, $topic)
+    public function create(CreateSubscriptionRequest $request, $topic)
     {
         $this->subscriptionService->subscribe($request->url, $topic);
         return response()->json([
             'url' => $request->url,
             'topic' => $topic
-        ], 200);
+        ], 201);
     }
 }
