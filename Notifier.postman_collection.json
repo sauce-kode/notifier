@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "05c28703-81d6-475d-921f-aa490efee9fb",
+		"name": "Notifier",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/subscribe/tech",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\" : \"http://127.0.0.1:8002/api/test2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/subscribe/tech",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"subscribe",
+						"tech"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/publish/tech",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\" : {\r\n        \"name\" : \"Ibiyemi Damilare\",\r\n        \"phone_number\" : \"0310831830\",\r\n        \"sex\" : \"male\",\r\n        \"date_of_birth\" : {\"month\" : \"July\",\"day\" : 10 },\r\n        \"message\" : \"Lorem Ipsum\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/publish/tech",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"publish",
+						"tech"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
