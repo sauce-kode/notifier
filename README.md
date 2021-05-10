@@ -52,3 +52,5 @@ php artisan queue:work
 
 ### Endpoints
 A postman collection for the endpoints has been added 
+
+[Notifier Collection](https://github.com/sauce-kode/notifier/blob/main/Notifier.postman_collection.json)
