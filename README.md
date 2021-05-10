@@ -59,4 +59,4 @@ A postman collection for the endpoints has been added
 
 ### Topic Subscription
 
-![Topic Subscription](https://github.com/sauce-kode/notifier/blob/main/subscription.png?raw=true)
+![Topic Subscription](https://github.com/sauce-kode/notifier/blob/main/subscription.jpg?raw=true)
