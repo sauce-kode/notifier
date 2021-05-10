@@ -55,8 +55,13 @@ A postman collection for the endpoints has been added
 
 [Notifier Collection](https://github.com/sauce-kode/notifier/blob/main/Notifier.postman_collection.json)
 
-### Process flow diagram
+### Process flow diagrams
 
 ### Topic Subscription
 
 ![Topic Subscription](https://github.com/sauce-kode/notifier/blob/main/subscription.jpeg?raw=true)
+
+### Publishing message to topic
+
+![Topic Subscription](https://github.com/sauce-kode/notifier/blob/main/publisher.jpeg?raw=true)
+
